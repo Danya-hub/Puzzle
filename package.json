@@ -1,0 +1,26 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc ./test",
+    "serv": "cross-env PORT=3000 node ./src/server/create-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danya-hub/puzzle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danya-hub/puzzle/issues"
+  },
+  "homepage": "https://github.com/Danya-hub/puzzle#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "cross-env": "^7.0.3",
+    "typescript": "^4.6.2"
+  }
+}
